@@ -26,6 +26,9 @@ app.use(passport.initialize());
 //Passport config
 require('./config/passport')(passport);
 
+//Routes
+app.use('/api/users', users);
+
 //set port, use Heroku server in cloud else use localhost:5000
 const port = process.env.PORT || 5000
 
