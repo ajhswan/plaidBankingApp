@@ -1,4 +1,4 @@
-const keys = require('../config/keys');
+const keys = require('./keys');
 const JwtStrategy = require('passport-jwt').Strategy;
 const ExtractJwt = require('passport-jwt').ExtractJwt;
 const mongoose = require('mongoose');
