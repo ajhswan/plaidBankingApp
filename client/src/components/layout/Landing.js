@@ -7,8 +7,8 @@ class Landing extends Component {
             <div style={{ height: '75vh' }} className='container valign-wrapper'>
                 <div className='row'>
                     <div className='col s12 center-align'>
-                        <h4><b>Cygnet</b> a login/auth app with the {''} <span style={{ fontFamily: 'monospace'}}>MERN</span> stack from scratch</h4>
-                        <p className='flow-text grey-text text-darken-1'>Create a (minimal) fill-stack app with user authentication via passport and JWTs</p>
+                        <h4>a <b>login/authentication</b> app with the {''} <span style={{ fontFamily: 'monospace'}}>MERN</span> stack from scratch</h4>
+                        <p className='flow-text grey-text text-darken-1'>A full-stack app with user authentication via passport and JWTs</p>
                         <br />
                         <div className='col s6'>
                             <Link to='/register' style={{
