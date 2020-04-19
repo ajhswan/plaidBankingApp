@@ -35,7 +35,7 @@ using x-www-form-urlencoded require following fields:
 
 Checks email if it already exists > if email does not exist and password match saves in DB
 
-returns success status:2000 and retuens json object with users details 
+returns success status:200 and returns json object with users details 
 
 if error it returns status 400 and returns msg with error message
 
